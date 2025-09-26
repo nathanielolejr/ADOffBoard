@@ -49,7 +49,7 @@ namespace ADOffBoard
             {
                 using (var pc = new PrincipalContext(
                     ContextType.Domain,
-                    "aboitizfeedall.net")) // replace with your AD domain
+                    "yourdomain.com")) // replace with your AD domain
                 {
                     bool isValid = pc.ValidateCredentials(username, password);
                     if (isValid)

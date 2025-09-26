@@ -66,7 +66,7 @@ namespace ADOffBoard
                         de.Password = password;
 
                         DirectoryEntry newOU = new DirectoryEntry(
-                            "LDAP://OU=Disabled Users,OU=User Accounts,DC=aboitizfeedall,DC=net",
+                            "LDAP://OU=OU Folder,OU=User Accounts,DC=yourdomain,DC=net",
                             username,
                             password
                         );

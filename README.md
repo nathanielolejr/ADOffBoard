@@ -1,13 +1,11 @@
 # ADOFFBOARD Tool
 
 A Windows Forms application for secure and efficient Active Directory offboarding.  
-It helps IT admins streamline disabling accounts, resetting passwords, and managing user deprovisioning.
-
----
+It helps IT admins streamline disabling AD accounts.
 
 ## 🚀 Features
 - Active Directory authentication
-- Secure account disable & password reset
+- Secure account disable
 - Progress/loading indicator for actions
 - User-friendly Windows Forms interface
 - Keyboard shortcut support (Enter to submit)
